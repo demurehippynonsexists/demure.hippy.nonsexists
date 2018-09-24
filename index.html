@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<style>
+		img {
+    		display: block;
+    		margin-left: auto;
+    		margin-right: auto;
+		}
+
+		p {
+			text-align: center
+		}
+	</style>
+
+  	<meta charset="utf-8">
+
+  	<title>UNIVERSITY OF SAN DIEGO HYPNOSIS EXPERIMENT</title>
+
+</head>
+
+<body>
+	<script src="js/md5.min.js"></script>
+	<script>
+		var salt = "I-rost Reverend Bishop Charles Francis Buddy Chancery Office Alcala Park P. O. Box 2422 San Diego 12, Calif. Your Excellency: As we are sending a donation to the new Auxiliary, I thougb.t I /ould remember you in a like manner as you have done so much for all of us and for this diocese. Please acce9t this in the spirit in which it is sent - as a token of loyalty and an expression of gratitude to you. Eoping you are very well. 'nth kindest pe:-sonal regards. Sincerely, ST. TF...ERESA. CEURCE "
+		function allIsWell() {
+			var passwd = prompt("Enter Password : ", "");
+			if (md5(salt+passwd) == "c5212016540a37eed932cd2c5f4020e1") {
+				window.location.href = "./pages/" + passwd + ".html"
+			} else {
+				alert("Invalid Password")
+			}
+		}
+	</script>
+
+  	<img src="res/usdlogo.PNG" alt="University of San Diego" onclick="allIsWell()" style="width: 25%"></img>
+  	<br></br>
+   	<p>UNIVERSITY OF SAN DIEGO HYPNOSIS EXPERIMENT</p>
+  	<p>HELLO FRIEND! THANK YOU FOR YOUR INTEREST IN THE UNIVERSITY OF SAN DIEGO HYPNOSIS EXPERIMENT!! ALL IS WELL.</p>
+  	<p>WE WILL GET TO KNOW EACH OTHER AND BE VERY GOOD FRIENDS!! ALL IS WELL.</p>
+  	<br></br>
+  	<img src="res/alliswell.PNG" alt="All Is Well" title="is all well" style="width: 15%"></img>
+  	<p>619-468-5249</p>
+  	<br></br>
+</body>
+
+<footer>
+	<p align="center">Copyright 1996</p>
+</footer>
+
+</html>
